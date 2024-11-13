@@ -1,0 +1,53 @@
+# Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
+RewriteEngine On
+RewriteBase /
+
+#RewriteCond %{HTTPS} off 
+#RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+#RewriteCond %{HTTP_HOST} (www\.)?onlinenaxodka.com
+#RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ $1.php [QSA,L]
+
+#RewriteCond %{REQUEST_URI} !^/technical_work.php
+#RewriteRule ^.*$ /technical_work.php
+
+RewriteCond %{REQUEST_URI} !^/include/errors/page404.php
+RewriteRule ^include/(.*)$ /include/errors/page404.php
+
+RewriteRule ^([a-z0-9_-]+)$ /index.php?partner=$1
+RewriteRule ^([a-z0-9_]+)/([a-z0-9_-]+)$ /index.php?category=$1&partner=$2
+
+
+RewriteRule ^register/([a-z0-9_-]+)$ /register.php?partner=$1
+#RewriteRule ^register/([a-z0-9_]+)/([a-z0-9_-]+)$ /register.php?category=$1&partner=$2
+#RewriteRule ^register/([a-z0-9_]+)/([a-z0-9_-]+)/([a-z]+)$ /register.php?category=$1&partner=$2&gtm=$3
+
+RewriteRule ^account/goods/([a-z0-9_]+)$ /account/goods.php?linkname=$1
+RewriteRule ^account/goods/([a-z0-9_]+)/([0-9]+)$ /account/goods.php?linkname=$1&goods=$2
+RewriteRule ^account/goods/([a-z0-9_]+)/p-([0-9]+)$ /account/goods.php?linkname=$1&page=$2
+
+RewriteRule ^([a-z0-9_]+)/([a-z0-9_-]+)/([a-z]+)$ /index.php?category=$1&partner=$2&gtm=$3
+
+RewriteRule ^assets/files/export/yml/([a-z0-9]+)/([a-z0-9]+)$ /assets/files/export/yml.php?hash=$1&format=$2
+RewriteRule ^assets/files/export/yml_prom/([a-z0-9_]+).xml$ /assets/files/export/yml_prom.php?linkname=$1
+RewriteRule ^assets/files/export/yml_prom_one_goods/([a-z0-9_]+)$ /assets/files/export/yml_prom_one_goods.php?goods_id=$1
+RewriteRule ^assets/files/export/yml_rozetka/([a-z0-9_]+)$ /assets/files/export/yml_rozetka.php?linkname=$1
+RewriteRule ^assets/files/export/yml_prom_margine_limit/([a-z0-9_]+)$ /assets/files/export/yml_prom_margine_limit.php?linkname=$1
+
+AddDefaultCharset utf-8
+AddCharset utf-8 *
+<IfModule mod_charset.c>
+    CharsetSourceEnc utf-8
+    CharsetDefault utf-8
+</IfModule>
+
+ErrorDocument 404 /include/errors/page404.php 
+php_value memory_limit 5048M 
+php_value upload_max_filesize 528M
+php_value post_max_size 128M
+php_value max_execution_time 3000
+php_value max_input_time 3000
+
+

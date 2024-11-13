@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+stock_quantity - остаток, наличие
+url - адрес на товар, если есть
+currencyId - id валюты
+categoryId - id категории
+picture - адреса на картинки товара
+price_wholesale - оптовая цена
+price - розничная цена
+pickup - самовывоз
+delivery - доставка
+name - название товара
+vendor - производитель
+vendorCode - код производителя
+country_of_origin - страна производитель
+description - описание товара
+weight - вес
+length - длина
+height - высота
+width - ширина
+volume - объем
+param - характеристики
+-->
+<yml_catalog date="2019-08-22 11:32">
+	<shop>
+		<name>Shop name</name>
+		<company>Company name</company>
+		<url>http://site.com</url>
+		<currencies>
+			<currency id="UAH" rate="1"/>
+			<currency id="USD" rate="26.3"/>
+			<currency id="EUR" rate="30"/>
+		</currencies>
+		<categories>
+			<category id="1">Категория</category>
+			<category id="2" parentId="1">Подкатегория</category>
+			<category id="3" parentId="2">Подподкатегория</category>
+		</categories>
+		<offers>
+			<offer available="true" id="885892941">
+				<stock_quantity>101</stock_quantity>
+				<url>https://site.com/p885898791-ice-cube-maker.html</url>
+				<price_wholesale>80</price_wholesale>
+				<price>199</price>
+				<currencyId>UAH</currencyId>
+				<categoryId>3</categoryId>
+				<picture>https://site.com/images/1580840001_ice-cube-maker.jpg</picture>
+				<picture>https://site.com/images/1580840003_ice-cube-maker.jpg</picture>
+				<picture>https://site.com/images/1580840002_ice-cube-maker.jpg</picture>
+				<picture>https://site.com/images/1580839999_ice-cube-maker.jpg</picture>
+				<picture>https://site.com/images/1580840000_ice-cube-maker.jpg</picture>
+				<pickup>true</pickup>
+				<delivery>true</delivery>
+				<name> Ice Cube Maker  Уникальная форма для заморозки льда</name>
+				<vendor>Ice Cube</vendor>
+				<vendorCode>GT-759323893</vendorCode>
+				<country_of_origin>Китай</country_of_origin>
+				<description><![CDATA[Ice Cube Maker  Уникальная форма для заморозки льда силиконовая 120 кубиков льда за одну заморозку]]></description>
+				<weight unit="кг">5.02</weight>
+				<length unit="см">480</length>
+				<height unit="см">310</height>
+				<width unit="см">120</width>
+				<volume unit="куб.м.">0.0179</volume>
+				<param name="Материал">Силикон</param>
+				<param name="Цвет">Синий</param>
+				<param name="Количество в наборе" unit="шт.">1</param>
+				<param name="Количество ячеек" unit="">120</param>
+				<param name="Вид формы" unit="">фигурная</param>
+				<param name="Тип" unit="">Форма для льда</param>
+				<param name="Можно мыть в посудомоечной машине" unit="">Да</param>
+			</offer>
+			<offer available="false" id="456899184">
+				<stock_quantity>99</stock_quantity>
+				<url>https://site.com/p885899184-ortopedicheskaya-podushka-egg.html</url>
+				<price_wholesale>30</price_wholesale>
+				<price>120</price>
+				<currencyId>USD</currencyId>
+				<categoryId>3</categoryId>
+				<picture>https://site.com/images/1594653779_ortopedicheskaya-podushka-egg.jpg</picture>
+				<picture>https://site.com/images/1580868434_ortopedicheskaya-podushka-egg.jpg</picture>
+				<picture>https://site.com/images/1580868435_ortopedicheskaya-podushka-egg.jpg</picture>
+				<pickup>true</pickup>
+				<delivery>true</delivery>
+				<name> Ортопедическая подушка Egg Sitter</name>
+				<vendor>Egg</vendor>
+				<vendorCode>75912398</vendorCode>
+				<country_of_origin>Китай</country_of_origin>
+				<description><![CDATA[<p>Специальная амортизационная подушка отлично поддерживает спину и позвоночник. За счет сквозных отверстий циркуляция воздуха позволит вам чувствовать легкость и прохладу.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+<p>Подушка Egg Sitter необходима в таких случаях:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+<ul>
+<li>после травм таза, копчика или седалищного бугра;&nbsp;</li>
+<li>для предотвращения пролежней у лежачих больных;</li>
+<li>для ускорения реабилитации после операций на органах малого таза;&nbsp;</li>
+<li>женщинам при беременности и после тяжелых родов;&nbsp;</li>
+<li>при нарушении осанки;&nbsp;</li>
+<li>для снятия дискомфорта и спазмов мышц спины;&nbsp;</li>
+<li>при остеохондрозе, радикулите, грыже межпозвоночных дисков;&nbsp;</li>
+<li>для снятия болей при геморрое;&nbsp;</li>
+<li>для профилактики простатита.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</li>
+</ul>
+<p>Ортопедическая подушка Egg Sitter может использоваться также с профилактической целью.&nbsp;<br/>
+Она полезна всем, кто длительное время проводит в офисе или за рулем автомобиля. Ведь использование такого приспособления позволяет избежать искривления осанки и нарушения кровообращения в области спины и таза. Для водителей, длительное время проводящих за рулем, подушка снижает вибрационное воздействие на позвоночник и помогает устроиться более удобно.&nbsp;</p>]]></description>
+				<weight unit="кг">5.02</weight>
+				<length unit="см">480</length>
+				<height unit="см">310</height>
+				<width unit="см">120</width>
+				<volume unit="куб.м.">0.0179</volume>
+				<param name="Застежка наволочки">стандартная молния</param>
+				<param name="Форма">Прямоугольная</param>
+				<param name="Ортопедические свойства">да</param>
+				<param name="Тип" unit="">Ортопедические,  дорожные</param>
+			</offer>
+		</offers>
+	</shop>
+</yml_catalog>

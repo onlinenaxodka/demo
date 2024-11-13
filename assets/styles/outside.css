@@ -1,0 +1,111 @@
+/* Outside styles */
+
+body {
+	background: #20174C url('/assets/images/core/bg.jpg') no-repeat;
+    /*background-size: cover;
+    background-attachment: fixed;*/
+}
+
+button {
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+a {
+	color: #183450;
+	font-weight: bold;
+}
+
+.ulogin {
+	width: 100%;
+	text-align: center;
+}
+
+i.help_outline {
+	position: relative;
+	top: 5px;
+	color: #047EFA;
+	font-size: 20px;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+section {
+	padding: 10px;
+}
+
+.message {
+	max-width: 576px;
+	width: 100%;
+    padding: 22px 15px;
+    border-radius: 5px;
+    background: rgba(0,0,0,.55);
+    color: #fff;
+    text-align: center;
+}
+
+a.btn_link {
+	font-size: 18px;
+	background: none;
+	color: #fff;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	margin: 20px 0;
+	padding: 6px 18px 8px 18px;
+	text-decoration: none;
+	outline: 0;
+}
+
+a.btn_link:hover {
+	border: 1px solid transparent;
+	-webkit-transition: background ease-in-out .15s;
+    -o-transition: background ease-in-out .15s;
+    transition: background ease-in-out .15s;
+	background: #209e91;
+}
+
+.modal-content {
+	background: rgba(255,255,255,.75);
+}
+
+img.logo {
+	width: 100px;
+	height: auto;
+}
+
+.g-recaptcha div {
+	margin: auto;
+}
+
+.custom-checkbox .custom-control-indicator {
+	border: 1px solid #ccc;
+}
+
+.form-control.is-valid, .form-control.is-invalid {
+	padding-right: 2.25rem;
+	background-repeat: no-repeat;
+	background-position: center right .5625rem;
+	-webkit-background-size: 1.125rem 1.125rem;
+	background-size: 1.125rem 1.125rem;
+}
+
+.form-control.is-valid {
+	background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'><path fill='%235cb85c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/></svg>");
+}
+
+.form-control.is-invalid {
+	background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='%23d9534f' viewBox='-2 -2 7 7'><path stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/><circle r='.5'/><circle cx='3' r='.5'/><circle cy='3' r='.5'/><circle cx='3' cy='3' r='.5'/></svg>");
+}
+
+.form-control:disabled, .btn:disabled {
+    cursor: not-allowed;
+}
+
+@media (min-width: 576px) {
+
+	.message {
+		margin: 20px auto;
+		padding: 32px 30px;
+	}
+
+}

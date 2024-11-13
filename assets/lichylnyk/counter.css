@@ -1,0 +1,145 @@
+@CHARSET "UTF-8";
+
+.custom-counter {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0px auto; 
+	background-color: white;
+	/*border: 5px solid #dddddd;*/
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-box-shadow: 5px 5px 10px #000000;
+	-webkit-box-shadow: 5px 5px 10px #000000;
+	-khtml-box-shadow: 5px 5px 10px #000000;
+	box-shadow: 5px 5px 10px #000000;
+}
+
+/* You may remove those example classes below if not used by Your code */
+.example-counter-0 {
+	margin: 0px auto; 
+	background-color: white;
+	border: 5px solid #dddddd;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-box-shadow: 5px 5px 10px #000000;
+	-webkit-box-shadow: 5px 5px 10px #000000;
+	-khtml-box-shadow: 5px 5px 10px #000000;
+	box-shadow: 5px 5px 10px #000000;
+}
+.example-counter-1 {
+	background-color: white;
+	float: left;
+	border: 5px solid #dddddd;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-box-shadow: 5px 5px 10px #000000;
+	-webkit-box-shadow: 5px 5px 10px #000000;
+	-khtml-box-shadow: 5px 5px 10px #000000;
+	box-shadow: 5px 5px 10px #000000;
+}
+.example-counter-2 {
+	margin: 0px auto;
+	background-color: white;
+	border: 5px solid #dddddd;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-box-shadow: 5px 5px 10px #000000;
+	-webkit-box-shadow: 5px 5px 10px #000000;
+	-khtml-box-shadow: 5px 5px 10px #000000;
+	box-shadow: 5px 5px 10px #000000;
+}
+.example-counter-3 {
+	margin: 0px auto; 
+	background-color: black;
+	border: 7px solid #222222;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-box-shadow: 5px 5px 10px #000000;
+	-webkit-box-shadow: 5px 5px 10px #000000;
+	-khtml-box-shadow: 5px 5px 10px #000000;
+	box-shadow: 5px 5px 10px #000000;
+}
+.example-counter-4 {
+	background-color: white;
+	float: left;
+	border: 5px solid #dddddd;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-box-shadow: 5px 5px 10px #000000;
+	-webkit-box-shadow: 5px 5px 10px #000000;
+	-khtml-box-shadow: 5px 5px 10px #000000;
+	box-shadow: 5px 5px 10px #000000;
+}
+.example-counter-7 {
+	margin: 0px auto; 
+	background-color: white;
+	border: 5px solid #dddddd;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-box-shadow: 5px 5px 10px #000000;
+	-webkit-box-shadow: 5px 5px 10px #000000;
+	-khtml-box-shadow: 5px 5px 10px #000000;
+	box-shadow: 5px 5px 10px #000000;
+}
+.example-counter-8 {
+	margin: 0px auto; 
+	background-color: white;
+	border: 5px solid #dddddd;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-box-shadow: 5px 5px 10px #000000;
+	-webkit-box-shadow: 5px 5px 10px #000000;
+	-khtml-box-shadow: 5px 5px 10px #000000;
+	box-shadow: 5px 5px 10px #000000;
+}
+.example-counter-9 {
+	margin: 35px auto; 
+	background-color: white;
+	border: 5px solid #dddddd;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-moz-box-shadow: 5px 5px 10px #000000;
+	-webkit-box-shadow: 5px 5px 10px #000000;
+	-khtml-box-shadow: 5px 5px 10px #000000;
+	box-shadow: 5px 5px 10px #000000;
+}
+
+.counter_character {
+	display: inline;
+	float: left;
+	position: relative;
+	/*top: -35px;*/
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+.counter_text {
+	font-family: Tahoma;
+	font-weight: bold;
+	background-color: #000;
+	font-size: 50px;
+	line-height: 45px;
+	text-align: center;
+	color: #FFF;
+}
+
+.counter_character_left {
+	margin-left: 0px;
+	margin-right: 1px;
+}
+
+.counter_character_inner {
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+.counter_character_right {
+	margin-left: 1px;
+	margin-right: 0px;
+}
+
+.counter_marker {
+	position: relative;
+	z-index: 10;
+}
